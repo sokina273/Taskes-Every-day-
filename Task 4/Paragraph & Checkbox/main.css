@@ -1,0 +1,41 @@
+body 
+{
+    background-color: rgb(194, 221, 198);
+}
+.content
+{
+    width: 400px;
+    margin: 50px auto;
+    background: rgb(151, 195, 216);
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+}
+.content .item
+{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DDD;
+    color: rgba(1, 94, 148, 0.938);
+
+}
+input[type=checkbox]
+{
+    margin: 20px;
+
+}
+
+p
+{    
+    margin: 0;
+    padding: 20px;
+    border-left: 1px solid #DDD;
+
+}
+
+ input:checked  + p
+{
+    background:rgba(238, 238, 238, 0.432);
+    border-radius:7px;
+    text-decoration: underline;
+    width: 100%;
+}

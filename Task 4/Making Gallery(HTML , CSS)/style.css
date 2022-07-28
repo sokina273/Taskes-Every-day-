@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+span img
+{
+   width: 300px;
+}
+.Gallery 
+{
+    width: 300px;
+    height: 250px;
+
+}
+
+.Gallery .images
+{
+    position: relative;
+}
+.small span 
+{
+    position: absolute;
+    padding: 5px;
+    background-color: #DDD;
+    border: 1px solid #222;
+    left: 220px;
+    top: 0;
+    display: none;
+
+}
+.small:hover span
+{
+    display: block;
+    
+}
+
+

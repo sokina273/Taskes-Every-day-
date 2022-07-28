@@ -1,0 +1,50 @@
+.content 
+{
+    width: 500px;
+    margin: auto;
+}
+
+.content input[type="radio"]
+{
+    display: none;
+}
+.content label 
+{
+    height: 15px;
+    line-height: 15px;
+    display: block;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+}
+.content section 
+{
+    height: 0;
+    overflow: hidden;
+    background: #bbb;
+    color: #222;
+    transition: height 0.5s ease-in-out ;
+
+
+}
+
+
+.content input:checked ~ section 
+{
+    transition: height 0.5s ease-in-out ;
+}
+.content input:checked ~ section.acc1
+{
+  height: 150px;
+}
+
+.content input:checked ~ section.acc2
+{
+  height: 180px;
+}
+
+.content input:checked ~ section.acc3
+{
+  height: 200px;
+}

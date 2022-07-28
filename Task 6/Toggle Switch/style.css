@@ -1,0 +1,48 @@
+.content 
+{
+    display: block;
+    width: 70px;
+    height: 40px;
+    
+    position: relative;
+
+}
+
+input 
+{
+    display: none;
+}
+.slide 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ccc;
+
+}
+.slide:before 
+{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 5px;
+    background: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+
+}
+input:checked + .slide
+{
+   background-color: rgb(34, 119, 91);
+}
+
+input:checked + .slide:before 
+{
+    transform: translateX(30px);
+}
+

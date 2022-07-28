@@ -1,0 +1,20 @@
+input[type="search"] {
+    width: 150px;
+    height:40px;
+    font-size: 20px;
+    background: url("image/s1.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+   /*  background-position: 0px 0px; */
+    padding: 0 0 0 40px;
+    border: 2px solid #CCC;
+    transition: width 1s;
+    outline: 0;
+    color: rgb(63, 63, 63);
+}
+input[type="search"]:focus {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #000;
+
+}

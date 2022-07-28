@@ -1,0 +1,66 @@
+body 
+{
+    background-color: #DDD;
+}
+.slider 
+{
+    width: 200px;
+    margin:auto;
+    overflow: hidden;
+
+}
+.slider ul 
+{
+    width: 1500px;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    animation: sliding 10s ease-in-out infinite;
+
+}
+
+.slider ul li 
+{
+    float: left;
+    position: relative;
+
+}
+.slider h5 
+{
+    background:#333;
+    text-align:justify;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+
+    
+}
+
+.slider ul:hover
+{
+    animation-play-state: paused;
+}
+
+@keyframes sliding 
+{
+    5%,10%{left: 0  }
+    15%,30%{left: -300px;}
+    35%,50%{left: -600px; }
+    55%,70%{left: -900px;}
+    75%,90%{left: -1200px;}
+}
+
+
+
+
+
+img 
+{
+       background-size:contain;
+       width: 300px;
+    height: 250px;
+
+}
