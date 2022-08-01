@@ -1,0 +1,20 @@
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 80px;
+    color: #fff;
+    background-image:url(1.jpg);
+    background-image: contain;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: fillText 4s  ease alternate infinite;
+
+}
+
+@keyframes fillText {
+    from{ background-position: center 40% }
+    top{ background-position: center 60% }
+}

@@ -1,0 +1,36 @@
+body 
+{
+    background: #000;
+}
+.content {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: 300px;
+
+}
+.icon1 ,.icon2 , .icon3 
+{
+    width: 35px;
+    height: 5px;
+    background: #fff;
+    margin: 6px 0;
+    transition: 0.3s ;
+
+}
+.change .icon1 
+{
+    transform: rotate(-45deg) translate(-9px , 6px );
+}
+.change .icon2
+{
+   opacity: 0;
+
+}
+
+.change .icon3
+{
+    transform: rotate(45deg) translate(-8px , -8px );
+
+}

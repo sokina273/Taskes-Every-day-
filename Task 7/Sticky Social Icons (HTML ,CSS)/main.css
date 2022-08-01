@@ -1,0 +1,41 @@
+body 
+{
+    margin: 0;
+    height: 1000px;
+
+}
+
+
+.icons 
+{
+    width: 80px;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+a 
+{
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+
+
+}
+a:first-child 
+{
+    background: #1877F2;
+
+}
+a:nth-of-type(2) {
+    background: #1DA1F2;
+}
+a:last-child 
+{
+    background: #CD201F;
+}

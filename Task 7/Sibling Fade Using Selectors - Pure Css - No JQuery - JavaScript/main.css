@@ -1,0 +1,30 @@
+/* 
+   
+  color:  #777 
+          #ccc
+          #b3b3b3   
+        
+*/
+
+body {
+    background: #777;
+}
+.sibling-fade 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #ccc;
+    padding: 2px 0;
+}
+
+span
+{
+    padding: 20px;
+    font-size: 18px;
+
+}
+.sibling-fade:hover span:not(:hover) {
+    color: #b3b3b3;
+}
